@@ -1,0 +1,52 @@
+.main{
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+    background-color: blueviolet;
+   border-radius: 7px;
+}
+.main:hover{
+    
+    animation:move 3s
+}
+@keyframes move{
+    8%{
+background-color:blue;
+    }
+   20%{
+background-color: brown;
+   }
+   30%{
+background-color: black;
+   }
+   50%{
+background-color: rgb(205, 22, 159);
+   }
+    
+}
+.main1{
+   width: 90px;
+   height: 90px;
+   background-color: rgb(191, 95, 31);
+  margin-top: 20px;
+}
+.main1:hover{
+    
+   animation:box 3s
+}
+@keyframes box{
+0%{
+   
+   
+   margin-left:0px;
+   border-radius: 0px;
+   
+}
+100%{
+   
+   
+   margin-left:700px;
+   border-radius: 200px;
+   
+}
+}
